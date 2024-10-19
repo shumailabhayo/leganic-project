@@ -1,0 +1,161 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
+
+* {
+
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.bg-images {
+    background-image: url(./images/image-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.start-section {
+    margin-left: 700px;
+
+
+}
+
+.bg-images-2 {
+    background-image: url(./images/image-hro.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+
+.bg-img {
+    background-image: url(./images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.bg-img-2 {
+    background-image: url(./images/image-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.text {
+    margin-left: 390px;
+    margin-top: 70px;
+}
+
+.bg-img-3 {
+    background-image: url(./images/image-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 450px;
+}
+
+.img-hero img {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.bg-img-4 {
+
+    background-image: url(./images/img-bg-follower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: 50px;
+}
+
+.bg-img-5 {
+
+    background-image: url(./images/bg-6\,\,.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.bg-image-6 {
+    background-image: url(./images/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    margin-bottom: 40px;
+    margin-top: 70px;
+
+}
+
+.bg-image-6-small {
+    background-image: url(./images/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 40px;
+    opacity: 7;
+
+}
+
+.text-group {
+    margin-left: 650px;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.items {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.hero-section {
+    margin-left: 850px;
+    margin-top: 200px;
+}
+
+.small-alot-images {
+    display: none;
+
+}
+
+.small-alot-images image {}
+
+@media screen and (max-width: 768px) {
+
+    .veg-bucket {
+        width: 350px;
+    }
+
+    .bg-images {
+        background-image: url(./images/image-hero-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 130vh;
+    }
+
+    .bg-img {
+        background-image: url(./images/bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 130vh;
+
+    }
+
+    .card {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .alot-images {
+        display: none;
+    }
+
+    .small-alot-images {
+        display: flex;
+    }
+
+    .hide-head {
+        display: none;
+    }
+}
